@@ -1,0 +1,58 @@
+.about > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-top {
+  align-items: start;
+  position: relative;
+  h4 {
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    font-weight: 400;
+    font-size: 64px;
+    color: #434242;
+  }
+}
+
+.about-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  .about-left-top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h6 {
+      font-weight: 400;
+      font-size: 20px;
+      color: #000;
+    }
+  }
+
+  button {
+    align-self: self-start;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 470px;
+    height: 99px;
+
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+  }
+}
+
+.about-right {
+  width: 48%;
+}

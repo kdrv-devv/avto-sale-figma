@@ -1,0 +1,360 @@
+.showcase-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.showcase-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.showcase-left h2 {
+  font-weight: 400;
+  font-size: 70px;
+  color: #434242;
+}
+.showcase-left h2 span {
+  color: #4ba9ff;
+}
+.showcase-left .showcase-left-bottom {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.showcase-left .showcase-left-bottom button {
+  width: 470px;
+  height: 100px;
+  box-shadow: 0 20px 50px 0 rgba(255, 129, 129, 0.3);
+  background: linear-gradient(180deg, #ff5454 0%, #cd4848 100%);
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.showcase-left .showcase-left-bottom p {
+  font-weight: 300;
+  font-size: 24px;
+  color: #000;
+}
+
+.showcase-right {
+  width: 40%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 10px;
+}
+.showcase-right .swiper-btns {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.showcase-right .swiper-btns button {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showcase-right .swiper-btns #kok {
+  background: #4ba9ff;
+  border: none;
+  color: #fff;
+}
+.showcase-right img {
+  height: 495px;
+  width: 400px;
+}
+.showcase-right h5 {
+  font-weight: 600;
+  font-size: 64px;
+  color: #4ba9ff;
+}
+.showcase-right h5 span {
+  font-weight: 400;
+  font-size: 36px;
+  color: #000;
+}
+
+.showcase-bottom {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.showcase-bottom button {
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+  width: 430px;
+  height: 120px;
+  box-shadow: 0 -10px 20px 0 rgba(75, 169, 255, 0.35);
+  background: #4ba9ff;
+}
+
+.about > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-top {
+  align-items: start;
+  position: relative;
+}
+.about-top h4 {
+  position: absolute;
+  top: 22px;
+  left: 0px;
+  font-weight: 400;
+  font-size: 64px;
+  color: #434242;
+}
+
+.about-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.about-left .about-left-top {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-left .about-left-top h6 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+}
+.about-left button {
+  align-self: self-start;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 470px;
+  height: 99px;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+}
+
+.about-right {
+  width: 48%;
+}
+
+.category > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.category-top {
+  position: relative;
+}
+.category-top h5 {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-weight: 400;
+  font-size: 64px;
+  color: #434242;
+}
+
+.category-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-bottom {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.card-left {
+  padding: 40px;
+  width: 345px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px 0 rgba(119, 119, 119, 0.2);
+  background: #fff;
+}
+.card-left .card-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.card-left .card-input label {
+  font-weight: 400;
+  font-size: 24px;
+  color: #434242;
+}
+.card-left .card-input select {
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(67, 66, 66, 0.2);
+}
+.card-left button {
+  width: 265px;
+  height: 63px;
+  background: #4ba9ff;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+}
+
+.category-right {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 30px;
+}
+
+.card-right {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #a6a6a6;
+  gap: 20px;
+  padding: 27px;
+  width: 285px;
+  justify-content: space-between;
+  height: 473px;
+}
+.card-right img {
+  height: 50%;
+  width: 100%;
+}
+.card-right .card-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.card-right .card-bottom h4 {
+  font-weight: 400;
+  font-size: 36px;
+  color: #000;
+}
+.card-right .card-bottom h5 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+.card-right .card-bottom .card-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-right .card-bottom .card-btns #price {
+  width: 80px;
+  height: 25px;
+  background: #4ba9ff;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+}
+.card-right .card-bottom .card-btns .plus-minus-btn {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 80px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4px;
+}
+.card-right .card-bottom .card-btns .plus-minus-btn #minus {
+  background-color: transparent;
+  color: #ff5454;
+  font-size: 18px;
+  text-align: center;
+}
+.card-right .card-bottom .card-btns .plus-minus-btn h6 {
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  color: #000;
+}
+.card-right .card-bottom .card-btns .plus-minus-btn #plus {
+  color: #48d399;
+  font-size: 18px;
+  text-align: center;
+}
+.card-right .card-bottom .card-btns button {
+  color: #4ba9ff;
+  background-color: transparent;
+}
+
+.footer {
+  background: #f5f5f5;
+}
+
+.footer > div {
+  padding: 50px 0;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-logo h5 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-links h6 {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+}
+.footer-links a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #434242;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-contact h6 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+}
+.footer-contact a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #434242;
+}
+
+/*# sourceMappingURL=style.css.map */

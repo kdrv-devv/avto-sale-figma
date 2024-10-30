@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="./src/global.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Avto shop</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex items-center justify-between">
+        <div class="header-left">
+          <a href="./index.html"
+            ><img src="./assets/imges/header-logo.png" alt=""
+          /></a>
+        </div>
+
+        <div class="header-right flex items-center gap-[80px]">
+          <div class="header-links flex items-center gap-[50px]">
+            <span class="w-auto px-[5px] py-[5px] bg-[#4ba9ff] h-auto">
+              <a class="text-[#fff]" href="#">Главная </a>
+            </span>
+
+            <a class=" " href="#">Pro-Запрос</a>
+            <a href="#">Гараж</a>
+            <a href="#">Контакты </a>
+            <a href="#">Заказы</a>
+          </div>
+
+          <div class="login flex items-center gap-[18px]">
+            <div class="cart flex items-center gap-[7px]">
+              <button class="">
+                <i class="text-[#4ba9ff] fa-solid fa-cart-shopping"></i>
+              </button>
+              <a class="text-[#434242]" href="#">100000р.</a>
+            </div>
+
+            <div
+              class="user border-[1px] border-[soid] border-[#4ba9ff] w-[120px] h-[40px] flex items-center justify-between gap-[10px]"
+            >
+              <button
+                class="text-[#4ba9ff] w-[50%] flex items-center justify-center"
+              >
+                <i class="fa-solid fa-user"></i>
+              </button>
+              <button
+                class="px-[5px] py-[0] text-[#fff] h-[100%] w-[50%] bg-[#4ba9ff]"
+              >
+                Войти
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Finish header  -->
+
+    <!-- Satart showcase -->
+    <section class="showcase">
+      <div class="container">
+        <div class="showcase-top flex items-center justify-center">
+          <form
+            action=""
+            class="border-[2px] border-[soid] border-[rgba(67, 66, 66, 0.5)] w-[677px] h-[50px] flex items-center justify-between pl-[10px]"
+          >
+            <input
+              class="w-[570px]"
+              type="search"
+              placeholder="Поиск по артикулу"
+            />
+            <button class="bg-[#4ba9ff] h-[100%] w-[70px] text-[#fff]">
+              Поиск
+            </button>
+          </form>
+        </div>
+
+        <div class="showcase-center">
+          <div class="showcase-left">
+            <h2 class="">
+              Предлагаем только <br />
+              качественные <br />
+              <span>запчасти</span> для иномарок
+            </h2>
+
+            <div class="showcase-left-bottom">
+              <button>Посмотреть каталог</button>
+              <p>Более 50 товаров</p>
+            </div>
+          </div>
+
+          <div class="showcase-right">
+            <div class="swiper-btns">
+              <button><i class="fa-solid fa-chevron-left"></i></button>
+              <button id="kok">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <img src="./assets/imges/showcase-img.png" alt="showcs" />
+
+            <h5>01<span>/08</span></h5>
+          </div>
+        </div>
+
+        <div class="showcase-bottom">
+          <button>Высокое качество</button>
+          <button>Лучшие на рынке</button>
+          <button>Большой выбор</button>
+        </div>
+      </div>
+    </section>
+    <!-- Finish showcase -->
+
+    <!-- START  ABOUT COMPANY SECTION  -->
+    <section class="about">
+      <div class="container">
+        <div class="about-top">
+          <h4>О компании</h4>
+          <img src="./assets/imges/abouttext.png" alt="" />
+        </div>
+
+        <div class="about-bottom">
+          <div class="about-left">
+            <div class="about-left-top">
+              <h6>
+                Компания Mannex: продажа запчастей и аксессуаров высокого
+                качества
+              </h6>
+
+              <h6>
+                Компания Mannex начала свою деятельность недавно, но уже успела
+                заслужить хорошую репутацию среди покупателей. Количество
+                положительных отзывов в адрес нашей компании от благодарных
+                клиентов растет с каждым днем. В нашем интернет-магазине вы
+                можете купить необходимые запчасти и аксессуары для своего
+                автомобиля по выгодным ценам.
+              </h6>
+
+              <h6>Большой ассортимент</h6>
+
+              <h6>
+                В каталоге нашего магазина вы найдете автозапчасти для Lexus,
+                Mazda или иных автомобилей. Среди широкого ассортимента
+              </h6>
+            </div>
+
+            <button>Читать дальше</button>
+          </div>
+
+          <div class="about-right">
+            <img src="./assets/imges/about-right-img.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FINISH  ABOUT COMPANY SECTION  -->
+
+    <!-- CATEGORY START  -->
+    <section class="category">
+      <div class="container">
+        <div class="category-top">
+          <h5>Каталог</h5>
+          <img src="./assets/imges/category-bg.png" alt="" />
+        </div>
+
+        <div class="category-center">
+          <div class="header-links flex items-center gap-[50px]">
+            <span class="w-auto px-[5px] py-[5px] bg-[#4ba9ff] h-auto">
+              <a class="text-[#fff]" href="#">Шини </a>
+            </span>
+
+            <a class=" " href="#">Диски</a>
+            <a href="#">Аксессуары</a>
+            <a href="#">Каталог </a>
+            <a href="#">Масла</a>
+            <a href="#">автохимия</a>
+            <a href="#">Аккумуляторы</a>
+            <a href="#">Колпаки</a>
+            <a href="#">Болты</a>
+          </div>
+        </div>
+
+        <div class="category-bottom">
+          <div class="category-left">
+            <div class="card-left">
+              <div class="card-input">
+                <label for="">Тип</label>
+                <select name="" id="">
+                  <option value="">Летние</option>
+                  <option value="">Летние</option>
+                </select>
+              </div>
+
+              <div class="card-input">
+                <label for="">Производитель</label>
+                <select name="" id="">
+                  <option value="">Летние</option>
+                  <option value="">Летние</option>
+                </select>
+              </div>
+
+              <div class="card-input">
+                <label for="">Размер</label>
+                <select name="" id="">
+                  <option value="">Летние</option>
+                  <option value="">Летние</option>
+                </select>
+              </div>
+
+              <div class="card-input">
+                <label for="">Диаметр</label>
+                <select name="" id="">
+                  <option value="">Летние</option>
+                  <option value="">Летние</option>
+                </select>
+              </div>
+
+              <button>Подобрать</button>
+            </div>
+          </div>
+
+          <div class="category-right">
+            <div class="card-right">
+              <img src="./assets/imges/balon.png" alt="" />
+
+              <div class="card-bottom">
+                <h4>Michelin</h4>
+                <h5>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</h5>
+
+                <div class="card-btns">
+                  <button id="price">990р.</button>
+                  <div class="plus-minus-btn">
+                    <button id="minus">-</button>
+                    <h6>1</h6>
+                    <button id="plus">+</button>
+                  </div>
+                  <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-right">
+              <img src="./assets/imges/balon.png" alt="" />
+
+              <div class="card-bottom">
+                <h4>Michelin</h4>
+                <h5>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</h5>
+
+                <div class="card-btns">
+                  <button id="price">990р.</button>
+                  <div class="plus-minus-btn">
+                    <button id="minus">-</button>
+                    <h6>1</h6>
+                    <button id="plus">+</button>
+                  </div>
+                  <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-right">
+              <img src="./assets/imges/balon.png" alt="" />
+
+              <div class="card-bottom">
+                <h4>Michelin</h4>
+                <h5>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</h5>
+
+                <div class="card-btns">
+                  <button id="price">990р.</button>
+                  <div class="plus-minus-btn">
+                    <button id="minus">-</button>
+                    <h6>1</h6>
+                    <button id="plus">+</button>
+                  </div>
+                  <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-right">
+              <img src="./assets/imges/balon.png" alt="" />
+
+              <div class="card-bottom">
+                <h4>Michelin</h4>
+                <h5>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</h5>
+
+                <div class="card-btns">
+                  <button id="price">990р.</button>
+                  <div class="plus-minus-btn">
+                    <button id="minus">-</button>
+                    <h6>1</h6>
+                    <button id="plus">+</button>
+                  </div>
+                  <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-right">
+              <img src="./assets/imges/balon.png" alt="" />
+
+              <div class="card-bottom">
+                <h4>Michelin</h4>
+                <h5>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</h5>
+
+                <div class="card-btns">
+                  <button id="price">990р.</button>
+                  <div class="plus-minus-btn">
+                    <button id="minus">-</button>
+                    <h6>1</h6>
+                    <button id="plus">+</button>
+                  </div>
+                  <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-right">
+              <img src="./assets/imges/balon.png" alt="" />
+
+              <div class="card-bottom">
+                <h4>Michelin</h4>
+                <h5>Шина летняя "Primacy 3 GRNX 205/55R16 91V"</h5>
+
+                <div class="card-btns">
+                  <button id="price">990р.</button>
+                  <div class="plus-minus-btn">
+                    <button id="minus">-</button>
+                    <h6>1</h6>
+                    <button id="plus">+</button>
+                  </div>
+                  <button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CATEGORY FINISH -->
+
+    <!-- FOOTER START  -->
+    <section class="footer">
+      <div class="container">
+        <div class="footer-logo">
+          <a href="./index.html"
+            ><img src="./assets/imges/footer-logo.png" alt="img"
+          /></a>
+          <h5>2020 © Mannex Все права защищены</h5>
+          <h5>Публичная оферта</h5>
+        </div>
+
+        <div class="footer-links">
+          <h6>Основное</h6>
+
+          <a href="">Главная</a>
+          <a href="">О компании </a>
+          <a href="">Гараж</a>
+          <a href="">Контакты</a>
+          <a href="">Заказы</a>
+        </div>
+
+        <div class="footer-links">
+          <h6>Аккаунт</h6>
+
+          <a href="">Корзина</a>
+          <a href=""> Баланс </a>
+          <a href="">Мои заказы</a>
+          <a href="">Запрос продавцу</a>
+          <a href="">Сравнение</a>
+        </div>
+
+        <div class="footer-contact">
+          <h6>Контакты</h6>
+
+          <a href="#"> <i class="fa-solid fa-envelope"></i> Главная </a>
+          <a href="#"
+            ><i class="fa-solid fa-phone"></i> 8 900 203 8083 <br />
+            8 912 294 5345
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER FINISH  -->
+
+    <script src="./assets/scripts/"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+input {
+  outline: none;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* FIGMA STYLESI  */
+
+.header-links a {
+  font-weight: 400;
+  font-size: 18px;
+  /* color: #434242; */
+  &:hover {
+    color: rgba(0, 0, 255, 0.601);
+  }
+}
+
