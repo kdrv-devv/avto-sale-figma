@@ -323,6 +323,9 @@
   font-size: 18px;
   color: #000;
 }
+.footer-logo h5:hover {
+  color: blue;
+}
 
 .footer-links {
   display: flex;
@@ -340,6 +343,9 @@
   font-size: 18px;
   color: #434242;
 }
+.footer-links a:hover {
+  color: blue;
+}
 
 .footer-contact {
   display: flex;
@@ -355,6 +361,9 @@
   font-weight: 400;
   font-size: 18px;
   color: #434242;
+}
+.footer-contact a:hover {
+  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
