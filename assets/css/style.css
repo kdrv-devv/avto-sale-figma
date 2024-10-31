@@ -373,4 +373,8 @@
   backdrop-filter: blur(20px);
 }
 
+.header-links a {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
